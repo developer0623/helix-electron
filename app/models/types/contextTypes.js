@@ -1,0 +1,15 @@
+export const ABSTRACT = 'abstract';
+export const CALCULATION = 'calculation';
+export const HELP = 'help';
+export const INTRODUCTION = 'introduction';
+export const INVENTORY = 'inventory';
+export const JOKE = 'joke';
+export const KNOWLEDGE_BASE = 'knowledge_base';
+export const NOTE = 'note';
+export const ORDER = 'order';
+export const PAGE = 'page';
+export const PROTOCOL = 'protocol';
+export const RECIPE = 'recipe';
+export const QUOTE = 'quote';
+export const VIDEO = 'Video';
+export const WHATS_NEW = 'whats_new';

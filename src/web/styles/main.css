@@ -1,0 +1,569 @@
+/* ======================================================
+   Global styles
+   ====================================================== */
+#app {
+	color: #4A4A4A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+#app {
+	padding-top: 80px;
+}
+#app section {
+	padding: 50px 20px 80px;
+}
+#app h1 {
+	font-size: 2.25em;
+}
+#app p {
+	font-size: 1.125em;
+}
+#app .desktop-only {
+	display: inline;
+}
+
+#app .mobile-only {
+	display: none;
+}
+
+/* Navbar */
+#app .navbar-header {
+	min-height: 80px;
+}
+#app .navbar .nav {
+	padding: 12px 50px;
+}
+#app .navbar-default {
+	margin: 0;
+	background: #fff;
+	border-bottom: 1px solid #9B9B9B;
+}
+#app .navbar-default .navbar-brand, #app .navbar-brand:focus, #app .navbar-default #app .navbar-brand:hover {
+	padding-top: 10px;
+}
+#app .navbar-default .navbar-nav>li>a, #app .navbar-default .navbar-nav>li>a:active, #app .navbar-default .navbar-nav>li>a:focus {
+	color: #4A4A4A;
+}
+#app .navbar-default .navbar-nav>li>a:hover {
+	color: #0099FF;
+}
+#app .navbar-default .navbar-toggle {
+	border-color: #00071e;
+}
+#app .navbar-default .navbar-toggle .icon-bar {
+	background-color: #00071e;
+}
+#app .nav-link {
+	font-size: 1em;
+}
+
+/* Buttons */
+
+#app .btn-lg {
+	padding: 16px 30px;
+}
+
+#app .btn-primary {
+	background-color: #50C0C2;
+	border: 2px solid #50C0C2;
+}
+#app .btn-primary:hover, #app .btn-primary:focus {
+		border: 2px solid #3E8989;
+		background-color: #3E8989;
+}
+
+#app .btn-secondary {
+  border: 2px solid #417505;
+  background-color: #417505;
+	color: #fff;
+}
+#app .btn-secondary:hover, #app .btn-secondary:focus {
+		border: 2px solid #3E8989;
+		background-color: #3E8989;
+}
+#app .sub-title {
+	font-size: 1em;
+	line-height: 1.2em;
+}
+#app .success-message {}
+#app .error-message {
+	padding-top: 4px;
+	display: block;
+	color: #ff0000;
+	font-size: 1em;
+}
+
+
+
+/* ======================================================
+   Sections
+   ====================================================== */
+
+/* Header */
+
+#header {
+	/* adjust opacity of linear gradient according to background photo */
+	background: url('../images/helix-hero-background.jpg') no-repeat bottom center;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	min-height: 803px;
+	color: #4A4A4A;
+	padding: 0;
+	position: relative;
+}
+
+#signup-form .form-wrapper {
+	position: relative;
+}
+#signup-form .success-message {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+#signup-form .success-message h4 {
+	font-size: 1.5em;
+}
+#signup-form label {
+	font-size: 1em;
+}
+#signup-form .heading {
+	padding-bottom: 30px;
+}
+#signup-button {
+	min-width: 375px;
+}
+
+
+
+/* Benefits */
+
+#benefits .heading {
+	padding-bottom: 90px;
+}
+#benefits .icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    border: 3px solid #0099FF;
+    margin: 0 auto;
+	display: table;
+}
+
+#benefits .icon .fa {
+	font-size: 36px;
+	color: #0099FF;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#benefits .item {
+    padding-bottom: 40px;
+}
+#benefits .devices {
+	margin-top: -280px;
+	max-width: 300px;
+}
+
+#header .alexa {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	max-height: 180px;
+}
+
+#benefits .google-home {
+	margin-top: -286px;
+	max-height: 240px;
+}
+.background {
+	background-color: rgb(238, 238, 238);
+}
+.background-alt {
+	background-color: #fff;
+}
+
+/* Features */
+#features .feature .heading {
+	padding-bottom: 60px;
+}
+#features .feature h4, .feature-alt h4 {
+	font-size: 1.5em;
+	line-height: 32px;
+}
+#features .feature p, .feature-alt p {
+	font-size: 1.125em;
+	line-height: 1.3em;
+	font-weight: 200;
+}
+#features .more h4 {
+	margin-bottom: 20px;
+}
+#features .more li {
+	font-size: 1.25em;
+	padding: 4px;
+}
+
+/* Press */
+#press .heading {
+	padding-bottom: 60px;
+}
+#press .item {
+	padding: 10px 10px 0 10px;
+}
+#press .quote {
+	max-width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#press .source {
+	font-weight: bold;
+}
+#press img {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+/* Utterances */
+
+#utterances {
+	background-color: rgb(238, 238, 238);
+}
+#utterances .utterance-example-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+#utterances .utterance-example-wrapper > [class*='col-'] {
+  display: flex;
+}
+#utterances .heading {
+	padding-bottom: 60px;
+}
+#utterances .item {
+	padding: 10px 10px 0 10px;
+}
+
+#utterances .item p {
+	background-color: white;
+	padding: 50px;
+	border-top: 0px solid #0099FF;
+	font-size: 1.125em;
+}
+
+#signup-form {
+	background-color: #50C0C2;
+	color: #fff;
+}
+
+/* Privacy Policy */
+#privacy-policy {
+	max-width: 800px;
+}
+/* CTAs */
+
+.cta {
+	margin: 20px;
+	padding: 50px;
+	line-height: 1.5;
+}
+
+.cta h3 {
+	line-height: 1.5;
+	margin:0;
+	padding:15px;
+}
+
+.triangle-isosceles {
+  position: relative;
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+  content: "";
+  display: block; /* reduce the damage in FF3.0 */
+  position: absolute;
+  top: -15px;
+  width: 0;
+  border-width: 0 15px 15px;
+  border-style: solid;
+}
+
+
+/* Alexa CTA */
+
+#alexa-skill {
+
+}
+
+#alexa-skill img {
+	padding-top: 50px;
+}
+
+#alexa-skill .cta {
+	background-color: rgb(238, 238, 238);
+}
+
+#alexa-skill .triangle-isosceles:after {
+  left: 100px;
+	border-color: rgb(238, 238, 238) transparent;
+}
+
+
+/* Google Home CTA */
+
+#google-action {
+	background-color: rgb(238, 238, 238);
+}
+
+#google-action img {
+	max-width: 250px;
+}
+
+#google-action .cta {
+	background-color: white;
+}
+
+#google-action .triangle-isosceles:after {
+	right: 100px;
+	border-color: white transparent;
+}
+
+
+/* Footer */
+
+footer {
+	background-color: #4A4A4A;
+	color: #fff;
+	padding: 10px;
+}
+footer .nav>li>a:focus, footer .nav>li>a:hover {
+	background-color: inherit;
+}
+footer .social-media-icon {
+	font-size: 48px;
+	float: left;
+	display: block;
+	margin-right: 32px;
+}
+footer .social-media-icon a {
+	color: #fff;
+}
+footer .social-media-icon a:hover {
+	color: #50C0C2;
+}
+footer .footer {
+	padding: 20px 60px;
+}
+footer .footer h4 {
+	font-weight: bold;
+	font-size: 1em;
+}
+footer .footer .nav-link {
+	color: #fff;
+	padding: 2px 0px;
+	font-size: .9em !important;
+	font-weight: 300;
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:641px)  {
+	#header-info {
+		position: absolute;
+		top: 100px;
+		left: 60px;
+		width: 575px;
+		padding-right: 60px;
+	}
+}
+/* ======================================================
+	 Desktop Only
+	 ====================================================== */
+@media (min-width:1025px) {
+	#header-info h1 {
+		font-size: 3.875em;
+	}
+	#header-info p {
+		font-size: 1.4em;
+	}
+	#app .sub-title {
+		font-size: 1.2em;
+		line-height: 1.4em;
+	}
+	/* Features */
+	#features .feature {
+		padding: 0px 60px;
+	}
+	#features .feature h4 {
+		font-size: 1.875em;
+		padding-right: 40px;
+		line-height: 1.4em;
+	}
+	#features .feature p {
+		padding-right: 40px;
+		line-height: 1.875em;
+	}
+	#features .item {
+		position: relative;
+		margin: 0px 120px;
+	}
+	#features .feature-left .feature-image {
+		float: left;
+		position: absolute;
+		top: 46%;
+		left: 0px;
+		transform: translateY(-50%);
+	}
+	#features .feature-left .feature-copy {
+		margin-left: 400px;
+	}
+	#features .feature-right .feature-image {
+		float: right;
+		position: absolute;
+		top: 46%;
+		right: 0px;
+		transform: translateY(-50%);
+	}
+	#features .feature-right .feature-copy {
+		margin-right: 400px;
+	}
+	/* Benefits */
+	#benefits p {
+		font-size: 1em;
+		padding: 0px 40px;
+	}
+	/* Utterances */
+	#utterances .utterance-example-wrapper {
+		padding: 0px 80px
+	}
+	/* Sign Up form */
+	#signup-form .form {
+		width: 600px;
+		margin: 0px auto;
+	}
+	/* Privacy Policy */
+	#privacy-policy {
+		max-width: 800px;
+		padding: 20px 0px;
+	}
+	/* Footer */
+	#footer-logo {
+		position: relative;
+		transform: translateY(50%);
+	}
+}
+/* ======================================================
+   Mobile styles
+   ====================================================== */
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 641px) {
+	#app section {
+		padding-top: 10px;
+	}
+	#app .heading {
+		padding-bottom: 30px;
+	}
+	#header-info {
+		padding: 50px 20px;
+	}
+	#header-info .heading {
+		padding-top: 0px;
+		padding-bottom: 30px;
+	}
+	#header-info p {
+		font-size: 1.125em;
+	}
+	#header .alexa {
+		right: -140px;
+	}
+	#signup-button {
+		min-width: 100%;
+	}
+	#benefits .devices {
+		margin: -126px auto 0;
+		max-width: 300px;
+		float:none!important;
+
+	}
+	#benefits .alexa {
+		margin: -100px auto 0;
+		max-height: 250px;
+		float:none!important;
+
+	}
+	#benefits .google-home {
+		margin: -107px auto 0;
+		max-width: 250px;
+		float:none!important;
+	}
+ 	#features .feature, .feature-alt {
+		text-align: center;
+				margin: 30px 20px 0px 20px;
+	}
+	#features .feature .heading {
+		padding-top: 0px;
+		padding-bottom: 30px;
+	}
+	#features .feature-image img {
+		max-width: 240px;
+	}
+	#features .feature-copy {
+		margin-top: 30px;
+	}
+	#features .more-features {
+		text-align: left;
+	}
+	#utterances .heading {
+		margin: 30px 20px 0px 20px;
+	}
+	#press .heading {
+		margin: 30px 20px 0px 20px;
+	}
+	#press .item {
+		padding: 10px 20px 0 20px;
+	}
+	#signup-form .heading {
+		padding: 20px;
+	}
+	footer .footer {
+		padding: 20px 20px;
+	}
+	.cta {
+		padding-bottom: 30px;
+		margin-top: 50px;
+	}
+
+	.cta h3 {
+		padding-top:0;
+	}
+
+	#alexa-skill img {
+		max-height: 250px;
+		padding-top: 20px;
+	}
+
+	#google-action img {
+		max-height: 200px;
+	}
+	.signup-button-submit {
+		min-width: 100%;
+	}
+	.footer h4 {
+		margin-top: 20px;
+	}
+	#footer-logo {
+		margin-bottom: 40px;
+	}
+
+	#app .desktop-only {
+		display: none;
+	}
+
+	#app .mobile-only {
+		display: inline;
+	}
+}

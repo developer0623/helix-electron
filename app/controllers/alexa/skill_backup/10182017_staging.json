@@ -1,0 +1,3714 @@
+{
+  "intents": [
+    {
+      "name": "AbstractIntent",
+      "samples": [
+        "Do I have any new journal abstracts to read",
+        "Do I have any new abstracts to read",
+        "Do I have any new abstracts",
+        "Check for new journal abstracts",
+        "Check for new journal articles",
+        "Do I have any new journal articles",
+        "Are there any journal articles available",
+        "Play my new abstracts"
+      ],
+      "slots": []
+    },
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.LoopOffIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.LoopOnIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.MoreIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NavigateHomeIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NavigateSettingsIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NextIntent",
+      "samples": [
+        "What is the first step",
+        "What's the first step",
+        "What is first step",
+        "What's first step",
+        "What is first",
+        "What's first",
+        "What is the Next Step",
+        "What's the Next Step",
+        "What is next step",
+        "What's next step",
+        "What is next",
+        "What's next",
+        "Show the first step",
+        "Show first step",
+        "Show me this first step",
+        "Show me first step",
+        "Show next step",
+        "Show me the next step",
+        "Show me next step",
+        "First step please",
+        "Next step please",
+        "Ok First Step",
+        "Ok Next Step",
+        "I'm ready for the first step",
+        "I'm ready for the next step",
+        "Take me to the next step",
+        "next step",
+        "first step"
+      ]
+    },
+    {
+      "name": "AMAZON.PageDownIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.PageUpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.PauseIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.PreviousIntent",
+      "samples": [
+        "What is the last step again",
+        "What's the last step again",
+        "What is the last step",
+        "What's the last step",
+        "What is last step",
+        "What's last step",
+        "What is last",
+        "What's last",
+        "What is the previous step again",
+        "What's the previous step again",
+        "What is the previous step",
+        "What's the previous step",
+        "What is previous step",
+        "What's previous step",
+        "What is previous",
+        "What's previous",
+        "Show the lasts step",
+        "Show last step",
+        "Show me this last step",
+        "Show me last step",
+        "Show previous step",
+        "Show me the previous step",
+        "Show me previous step",
+        "Last step please",
+        "Previous step plese",
+        "Ok last step",
+        "Ok previous step",
+        "Take me to the previous step",
+        "previous step",
+        "last step"
+      ]
+    },
+    {
+      "name": "AMAZON.RepeatIntent",
+      "samples": [
+        "Repeat the step",
+        "Repeat the current step",
+        "Repeat that",
+        "Repeat that for me",
+        "Can you repeat the step",
+        "Can you repeat the current step again",
+        "Say the current step again",
+        "Say the step again",
+        "What's the step again",
+        "What is the step again",
+        "What am I supposed to do"
+      ]
+    },
+    {
+      "name": "AMAZON.ResumeIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ScrollDownIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ScrollLeftIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ScrollRightIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ScrollUpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ShuffleOffIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.ShuffleOnIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StartOverIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "CalculationIntent",
+      "samples": [
+        "How do i calculate the {CalculationName}",
+        "I want to {CalculationName}",
+        "I need to {CalculationName}",
+        "I need to do a calculation"
+      ],
+      "slots": [
+        {
+          "name": "CalculationName",
+          "type": "CALCULATIONNAME",
+          "samples": []
+        },
+        {
+          "name": "CalculationType",
+          "type": "CALCULATIONTYPE",
+          "samples": []
+        },
+        {
+          "name": "Mass",
+          "type": "AMOUNT",
+          "samples": []
+        },
+        {
+          "name": "Volume",
+          "type": "AMOUNT",
+          "samples": []
+        },
+        {
+          "name": "Concentration",
+          "type": "AMOUNT",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "CompleteProtocolIntent",
+      "samples": [
+        "End current protocol",
+        "End {Protocol}",
+        "Mark protocol complete",
+        "Complete my protocol",
+        "End Protocol",
+        "Complete this Protocol",
+        "Complete Protocol"
+      ],
+      "slots": [
+        {
+          "name": "Protocol",
+          "type": "PROTOCOL",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "IntroductionIntent",
+      "samples": [
+        "Introduce herself",
+        "Helix introduce herself",
+        "Helix tell me about yourself",
+        "Tell me about yourself",
+        "Introduce yourself",
+        "Helix introduce yourself"
+      ],
+      "slots": []
+    },
+    {
+      "name": "InventoryAmountIntent",
+      "samples": [
+        "We are getting {InventoryAmount} of {ProductName}",
+        "We are running {InventoryAmount} of {ProductName}",
+        "Note that we are running {InventoryAmount} of {ProductName}",
+        "Note that we are running {InventoryAmount} on {ProductName}",
+        "Note the we are {InventoryAmount} of {ProductName}",
+        "Note that we are {InventoryAmount} on {ProductName}",
+        "Note that we are getting {InventoryAmount} on {ProductName}",
+        "Update inventory amount to {InventoryAmount} for {ProductName}",
+        "We are {InventoryAmount} on {ProductName}",
+        "We are running {InventoryAmount} on {ProductName}",
+        "We are {InventoryAmount} of {ProductName}",
+        "Update inventory amount to {InventoryAmount}",
+        "We are getting {InventoryAmount} on {ProductName}"
+      ],
+      "slots": [
+        {
+          "name": "InventoryAmount",
+          "type": "INVENTORYAMOUNT",
+          "samples": []
+        },
+        {
+          "name": "ProductName",
+          "type": "ENTITY",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "InventoryCheckinIntent",
+      "samples": [
+        "{Name} is checking in {ProductName}",
+        "I'm checking in {ProductName}",
+        "Checking in {ProductName}"
+      ],
+      "slots": [
+        {
+          "name": "ProductName",
+          "type": "ENTITY",
+          "samples": []
+        },
+        {
+          "name": "Name",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "InventoryCheckoutIntent",
+      "samples": [
+        "Check {ProductName} out of inventory",
+        "Checkout {ProductName} from inventory",
+        "Remove {ProductName} from inventory",
+        "Checkout inventory",
+        "I'm checking out {ProductName}",
+        "Checkout {ProductName}"
+      ],
+      "slots": [
+        {
+          "name": "Name",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": []
+        },
+        {
+          "name": "ProductName",
+          "type": "ENTITY",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "InventoryItemCheckoutStatusIntent",
+      "samples": [
+        "Tell me who last checked out {ProductName}",
+        "Tell me who checked out {ProductName}",
+        "Tell me who what {ProductName}",
+        "Who has {ProductName}",
+        "Who checked out {ProductName}",
+        "Who last checked out {ProductName}"
+      ],
+      "slots": [
+        {
+          "name": "ProductName",
+          "type": "ENTITY",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "InventoryItemLocationIntent",
+      "samples": [
+        "Help me locate the {ProductName}",
+        "Help me find the {ProductName}",
+        "Where is the {ProductName}",
+        "Where is the {ProductName} located",
+        "I'm missing my {ProductName}",
+        "I'm missing {ProductName}",
+        "I can't find where {ProductName} is",
+        "I can't find {ProductName}",
+        "Where are some of my {ProductName}",
+        "Where are my {ProductName}",
+        "Where is my {ProductName}",
+        "I need help finding {ProductName}",
+        "Where can I find my {ProductName}",
+        "Help me locate my {ProductName}",
+        "Help me find my {ProductName}",
+        "Inventory",
+        "I need help with Inventory",
+        "Help me locate a product",
+        "Help me locate something",
+        "Help me find something",
+        "Help me find a product",
+        "What shelf is {ProductName} on",
+        "Where is {ProductName}",
+        "Where are some {ProductName}"
+      ],
+      "slots": [
+        {
+          "name": "ProductName",
+          "type": "ENTITY",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "LookUpIntent",
+      "samples": [
+        "What is the {Property} for {Entity}",
+        "What's the {Property} for {Entity}",
+        "What are the {Property} for {Entity}",
+        "What is the {Property} of {Entity}",
+        "What's the {Property} of {Entity}",
+        "What are the {Property} of {Entity}",
+        "What is the {Property} for {LookUpQualifier} of {Entity}",
+        "What's the {Property} of {Entity} on the {LookUpQualifier}",
+        "What is the {Property} for {Entity} in the {LookUpQualifier}",
+        "What's the {Property} for {Entity} in the {LookUpQualifier}",
+        "What is {Property} {Entity}",
+        "What's {Property} {Entity}",
+        "What is the {Property} {Entity}",
+        "What's the {Property} {Entity}",
+        "What's {Entity} {Property}",
+        "What is {Entity} {Property}",
+        "Is {Entity} {Property}",
+        "Is {Entity} a {Property}",
+        "How should I {Property} {Entity}",
+        "How should I {Property} for {Entity}",
+        "How should I {Property} of {Entity}",
+        "How should {Property} {Entity}",
+        "How should {Property} for {Entity}",
+        "How should {Property} of {Entity}",
+        "Tell me the {Property} of {Entity}",
+        "Tell me the {Property} for {Entity}",
+        "Tell me {Property} of {Entity}",
+        "Tell me {Property} for {Entity}",
+        "Tell me {Property} {Entity}",
+        "Tell me the {Property} for {LookUpQualifier} of {Entity}",
+        "Tell me the {Property} for {LookUpQualifier} for {Entity}",
+        "Tell me {Entity} {Property}",
+        "Tell me about the {Property} {Entity}",
+        "Tell me about the {Property} for {Entity}",
+        "Tell me about the {Property} of {Entity}",
+        "Lookup {Entity} {Property}",
+        "Lookup the {Property} of {Entity}",
+        "Lookup the {Property} for {Entity}",
+        "Lookup {Property} of {Entity}",
+        "Lookup {Property} for {Entity}",
+        "Look up the {Property} of {Entity}",
+        "Look up the {Property} for {Entity}",
+        "Look up {Property} of {Entity}",
+        "Look up {Property} for {Entity}"
+      ],
+      "slots": [
+        {
+          "name": "Entity",
+          "type": "ENTITY",
+          "samples": []
+        },
+        {
+          "name": "Property",
+          "type": "PROPERTY",
+          "samples": []
+        },
+        {
+          "name": "LookUpQualifier",
+          "type": "LOOKUPQUALIFIER",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "OrderIntent",
+      "samples": [
+        "Let's reorder {ProductName}",
+        "Can you place an order for {ProductName}",
+        "I need to reorder {ProductName}",
+        "I need to order {ProductName}"
+      ],
+      "slots": [
+        {
+          "name": "ProductName",
+          "type": "ENTITY",
+          "samples": []
+        },
+        {
+          "name": "Quantity",
+          "type": "AMAZON.NUMBER",
+          "samples": []
+        },
+        {
+          "name": "VendorName",
+          "type": "VENDOR",
+          "samples": []
+        },
+        {
+          "name": "ItemSize",
+          "type": "ITEMSIZE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "OrderSummaryIntent",
+      "samples": [
+        "Continue my order request",
+        "Pull up my order request",
+        "Which items are in the order request",
+        "What items are in the order request",
+        "What items are in my current order request"
+      ],
+      "slots": []
+    },
+    {
+      "name": "PageIntent",
+      "samples": [
+        "I need {Name} in the {Location} {Number}",
+        "I need {Name} in {Location} {Number}",
+        "I Need {Name} in the {Location}",
+        "I need {Name} in {Location}",
+        "Page {Name} to the {Location}",
+        "I need help in {Location} {Number}",
+        "I need assistance in {Location} {Number}",
+        "Page {Name} to {Location} {Number}",
+        "I need assistance in {Location}",
+        "I need help in {Location}",
+        "Page {Name} to {Location}",
+        "I fucked up",
+        "Oh Fuck",
+        "I need assistance",
+        "I Need Help",
+        "Page {Name}",
+        "I need {Name}"
+      ],
+      "slots": [
+        {
+          "name": "Name",
+          "type": "AMAZON.US_FIRST_NAME",
+          "samples": []
+        },
+        {
+          "name": "Location",
+          "type": "LOCATION",
+          "samples": []
+        },
+        {
+          "name": "Number",
+          "type": "AMOUNT",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "ProtocolIntent",
+      "samples": [
+        "How do I do a {ProtocolType} {ProtocolName} with {FirstEnzyme} and {SecondEnzyme}",
+        "What's the {ProtocolType} {ProtocolName} for {FirstEnzyme} and {SecondEnzyme}",
+        "Lookup a protocol for {ProtocolName}",
+        "Lookup a protocol for a {ProtocolName}",
+        "How do I make a protocol",
+        "How do I do a protocol",
+        "Let's do {ProtocolType} {ProtocolName} using {FirstEnzyme} and {SecondEnzyme}",
+        "Let's do a {ProtocolType} {ProtocolName} using {FirstEnzyme}",
+        "Let us do a {ProtocolName} protocol",
+        "Let's do a {ProtocolName} protocol",
+        "What is the protocol for a {ProtocolName} using {FirstEnzyme} and {SecondEnzyme}",
+        "What is the protocol for a {ProtocolName} using {FirstEnzyme}",
+        "What is the protocol for a {ProtocolType} {ProtocolName}",
+        "What's the protocol for a {ProtocolType} {ProtocolName} using {FirstEnzyme} and {SecondEnzyme}",
+        "What's the protocol for a {ProtocolType} {ProtocolName} using {FirstEnzyme}",
+        "Help me with a {ProtocolName}",
+        "Help me do {ProtocolName}",
+        "How do I do {ProtocolName}",
+        "Help me do a {ProtocolName}",
+        "How do I do a {ProtocolName}",
+        "What is the protocol for a {ProtocolName}",
+        "What's the protocol for {ProtocolName}",
+        "Lookup a protocol",
+        "Look up a protocol",
+        "Help me with a protocol",
+        "I need help with a protocol",
+        "Start a protocol",
+        "Let's do a protocol"
+      ],
+      "slots": [
+        {
+          "name": "ProtocolName",
+          "type": "PROTOCOL",
+          "samples": [
+            "{ProtocolName}"
+          ]
+        },
+        {
+          "name": "ProtocolType",
+          "type": "PROTOCOLTYPE",
+          "samples": []
+        },
+        {
+          "name": "FirstEnzyme",
+          "type": "ENTITY",
+          "samples": []
+        },
+        {
+          "name": "SecondEnzyme",
+          "type": "ENTITY",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "ProtocolPropertyIntent",
+      "samples": [
+        "Which {ProtocolProperty} do I need",
+        "What {ProtocolProperty} do I need"
+      ],
+      "slots": [
+        {
+          "name": "ProtocolProperty",
+          "type": "PROTOCOLPROPERTY",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "QuoteIntent",
+      "samples": [
+        "I need some quotes for {ProductName}",
+        "Can you get me a quote for {ProductName}"
+      ],
+      "slots": [
+        {
+          "name": "ProductName",
+          "type": "ENTITY",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "RecipeIntent",
+      "samples": [
+        "how do I make a solution",
+        "how to make a solution",
+        "Tell me a how to make a {RecipeName} solution",
+        "Tell me how to make a {RecipeName}",
+        "Help me make a {RecipeName}",
+        "What's the recipe for {RecipeName}",
+        "What is the recipe for {RecipeName}",
+        "Start a solution for a recipe",
+        "Tell me how to make a solution",
+        "Help me make a solution",
+        "Make a solution",
+        "Start a Recipe"
+      ],
+      "slots": [
+        {
+          "name": "RecipeName",
+          "type": "SOLUTION",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "RecordNoteIntent",
+      "samples": [
+        "Start a Note",
+        "Take a Note",
+        "Record a Note"
+      ],
+      "slots": [
+        {
+          "name": "Note",
+          "type": "NOTE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "ThanksIntent",
+      "samples": [
+        "Many thanks",
+        "Thank you very much",
+        "Thanks a lot",
+        "Gracias",
+        "Thanks Helix",
+        "Thank you",
+        "Thanks"
+      ],
+      "slots": []
+    },
+    {
+      "name": "WhatsNewIntent",
+      "samples": [
+        "What's new today",
+        "Tell Me What's New",
+        "What's new Helix"
+      ],
+      "slots": []
+    },
+    {
+      "name": "WhoAmIIntent",
+      "samples": [
+        "What lab am I",
+        "Who I am"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "AMOUNT",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "100.66",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "10.2",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".76",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".58",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".33",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".9",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".8",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".7",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".6",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".2",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".3",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".4",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "10",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".12",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".24",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": ".5",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "2",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "1.75",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "1.5",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "1.25",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "1",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "CALCULATIONNAME",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "change the concentration of a solution",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "calculate cell concentration",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "calculate concentration from mass and volume",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "calculate volume from mass and concentration",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "change the volume of a solution",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "dilute a solution",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "calculate mass from volume and concentration",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "CALCULATIONTYPE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Molarity",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "ENTITY",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Acetic Acid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "hydrochloric acid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Methanol",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Thiosolfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Glycine Hydrochloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Glycerol",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Aluminum  shots",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "100 22 1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Dodecyl Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sucrose",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Polypxyethylene",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Iron",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Lead",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ALUMINUM SULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Aluminum Potassium Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "AMMONIUM ACETATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "AMMONIUM CHLORIDE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ammonium Oxalate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "BARIUM SULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Bromine",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Brucine Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cadmium Acetate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cadmium Chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cadmium Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Calcium Dihydrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "CALCIUM SULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ceric Ammonium Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cerium Oxalate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Chromium Chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cobalt Acetate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cobalt Chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cupric Chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cupric Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cuprous Chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ferric Ammonium Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ferric chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ferrous Sulfide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Calcium Chloride Anhydrous  mesh pellets",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "DL Tryptophan",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "n Butyl vinyl ether",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cycloocta 1 5 diene",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "2 Butoxyethyl acetate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "2 Bromo 2 methylpropane",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "3 METHYLHEPTANE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "4 METHYLCYCLOHEXANONE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "7783 49 5",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "17 alpha Estradiol",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Iodine",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Lead Acetate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Lead Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MAGNESIUM CHLORIDE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MAGNESIUM SULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Manganese Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Manganous Chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MERCURIC CHLORIDE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Biphthalate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Bisulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "potassium bitartrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Citrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Hydrogen Phthalate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM IODATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Iodide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Oxalate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM PERSULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Phosphate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM SULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Acetate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "sodium bisulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "sodium chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Citrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Fluoride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Iodide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Phosphate Dibasic",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Phosphate Monobasic",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Phosphate Tribasic",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "SODIUM SULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "SODIUM SULFITE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "SODIUM THIOSULFATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Metabisulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Oxalate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "strontium chloride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Zinc Oxide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Zinc Sulfate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Aluminum Nitrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cadmium nitrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ceric Ammonium Nitrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cobalt",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Lithium Nitrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MAGNESIUM NITRATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MERCURIC NITRATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM NITRATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "STRONTIUM NITRATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Uranyl nitrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ZINC NITRATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "BARIUM CARBONATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "CALCIUM CARBONATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Chromium Trioxide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "DIPHENYL CARBONATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ferric Oxide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "KAOLIN",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MAGNESIUM CARBONATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MAGNESIUM HYDROXIDE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM CARBONATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "AMMONIUM THIOCYANATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM CYANIDE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Potassium Ferricyanide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM THIOCYANATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Isatoic Anhydride",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "LEAD CHROMATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM CHROMATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "POTASSIUM PERMANGANATE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sodium Dichromate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sulfur",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Vanadium",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Acetanilide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Borneol",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Bromoaniline",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Bromosuccinimide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Camphor",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Diacetyl Monoxime",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Diphenylamine",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Glycine",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Methyl Salicylate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Naphthalene",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Palmitic Acid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Thiosemicarbazide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "THIOUREA",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "THYMOL",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Vanillin",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ANILINE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Benzyl Alcohol",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ethylene glycol",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "CYCLOHEXENE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ethyl acetate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Acetic Anhydride",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "INVENTORYAMOUNT",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "out",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "low",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "ITEMSIZE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "1L",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "500mL",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "400mL",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "100mL",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "KEYWORD",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "ACS",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "LOCATION",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Lab",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Office",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Room",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "LOOKUPQUALIFIER",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "inhalation",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ingestion",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "respiratory",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "eyes",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "skin",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "NOTE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "fire laid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "himself settle",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "anyway construction condition",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "colony basic prevent",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "follow grass come breakfast",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "black front close mighty",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "whom sum ride natural slide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "sell which kids adjective lead",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "buried sale silent variety speed snake",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "face sharp giving force breathing sold",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "rough dry feature island college explanation rubber",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "explanation rubbed bent hole military instance relationship",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "manufacturing perfect news escape turn own instead bare produce",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "doubt dollar goose got particular therefore force larger",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "PROPERTY",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "cancer risks",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "chronic effects",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "acute effects",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "skin symptoms",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "nonfire spill response",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "disposal methods",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cleanup methods",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cleanup",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "canonical smiles",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "boiling point",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "inchi key",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "reactivity profile",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "non human toxicity excerpts",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Human Toxicity Excerpts",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Medical Surveillance",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "toxicity summary",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "reproductive and developmental effects",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "target organs",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ingestion symptoms",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "inhalation symptoms",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "storage conditions",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "safe storage",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "other preventative measures",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "spillage disposal",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "isolation and evacuation",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "other fire fighting hazards",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "explosion fire fighting",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "fire fighting",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "corrosivity",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "store",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "carcinogen",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "physical description",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "hydrogen bond acceptor count",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "solubility",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "melting point",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "decomposition",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "iupac name",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "flash point",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "first aid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "fire hazard",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "heat of vaporization",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "antidote and emergency treatment",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "eye symptoms",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "symptoms",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "exposure routes",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "health effects",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "hydrogen bond donor count",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ingestion first aid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "skin eye and respiratory irritations",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "health hazard",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "eye first aid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "fire potential",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "odor threshold",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "viscosity",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "vapor density",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "skin first aid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "hazards summary",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ionization potential",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "density",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "inhalation first aid",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "explosion hazard",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "surface tension",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "auto ignition",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "logp",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "vapor pressure",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "inchi",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "color",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "odor",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cas",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "cutsite",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "methylation sensitivity",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "heat inactivation temperature",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "time saver qualified",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "percent activity in NEBUFFER cutsmart",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "percent activity in NEBUFFER 3.1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "percent activity in NEBUFFER 2.1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "percent activity in NEBUFFER 1.1",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "supplied NEB buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "requires SAM",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "heat of combustion",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "incubation temperature",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "molecular weight",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "catalog number",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "PROTOCOL",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "synthesis of acetaminophen",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "bromocresol green TLC stain",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Alkyne V X 7 70 Iodination",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ninhydrin TLC stain",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ethyl Acetate Extraction",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "restriction enzyme digest",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Quick Ligation",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cat Elisa",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "phosphomolybdic acid TLC stain",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Oligonucleotide Purification",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Purification of DNA from agarose",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "E coli competent cell preparation",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "bio film assay",
+            "synonyms": [
+              "biofilm assay",
+              "biofilm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "PROTOCOLPROPERTY",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "equipment",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "chemicals",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "PROTOCOLTYPE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "single",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "double",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "SOLUTION",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Ethidium Bromide",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Test Recipe",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Protein Purification 8X Charge Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Protein Purification 4X Elution Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Protein Purification 8X Wash Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Protein Purification 8X Binding Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Elisa Chromagenic Substrate",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Elisa ABTA",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Elisa Citrate Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Elisa Carbonate Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "1X Transfer Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "8X Transfer Buffer Stock",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "TE Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "New Recipe",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "10 X TBE Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "50 X TAE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "20 X SSC",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "0.1 Percent Ponceau Stain",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "1 X PBS T Milk",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "5 X P Buffer",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "LB Agar",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "LB Broth with Ampicillin",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Point 5 Molar EDTA",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "10 X DNA Loading DVE",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "DEPC treated Water",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Coomassie Destain",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Coomassie Blue Stain",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "STEPTYPE",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Step",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "UNIT",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Parts Per Quadrillion",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Parts Per Trillion",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Parts Per Billion",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Parts Per Million",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Terabit",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Gigabit",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Megabit",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kilobit",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Bit",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Terabyte",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Gigabyte",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Megabyte",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kilobyte",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Byte",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kilopounds per square inch",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Pounds per square inch",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Torrs",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Bars",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Megapascal",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kilopascals",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Hectopascals",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Pascal",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Feet Per Second",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Knots",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Miles Per Hour",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kilometers per hour",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Miles Per Second",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Year",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Months",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Weeks",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Days",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Hours",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Minutes",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Seconds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Milliseconds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Microseconds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Nanoseconds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kelvin",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Fahrenheit",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Celsius",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cubic Yard",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cubic Feet",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Gallon",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Quart",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Pint",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cups",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Fluid Ounces",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cubic Inches",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Tablespoon",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Teaspoon",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cubic Kilometers",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cubic Meters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Liters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Milliliters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cubic centimeters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Cubic Millimeters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Square Miles",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Acre",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Square Feet",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Square Inches",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Square Kilometers",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Hectare",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Square Meters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Square Centrimeters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Square Millimeters",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "MIles",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Feet",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Inches",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Meter",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Centimeter",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Millimeter",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Pounds",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Ounces",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kilogram",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Milligram",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Microgram",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Kilograms",
+            "synonyms": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "VENDOR",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Pure Chemistry",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Aurora Fine Chemicals",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "chemotion",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "ChemShuttle",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Wilshire Technologies",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "BroadPharm",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Tocris Bioscience",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Leo Biochem",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Lorad Chemical",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Musechem",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Sigma-Aldrich",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "A1 BioChem",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Acorn PharmaTech",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ],
+  "prompts": [
+    {
+      "id": "Elicit.Intent-ProtocolIntent.IntentSlot-ProtocolName",
+      "promptVersion": "1.0",
+      "definitionVersion": "1.0",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Which protocol?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "version": "1.0",
+    "intents": [
+      {
+        "name": "ProtocolIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "ProtocolName",
+            "type": "PROTOCOL",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicit": "Elicit.Intent-ProtocolIntent.IntentSlot-ProtocolName"
+            }
+          },
+          {
+            "name": "ProtocolType",
+            "type": "PROTOCOLTYPE",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "FirstEnzyme",
+            "type": "ENTITY",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "SecondEnzyme",
+            "type": "ENTITY",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}

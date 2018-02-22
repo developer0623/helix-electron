@@ -1,0 +1,10 @@
+export const ABSTRACT = 'ABSTRACT';
+export const CALCULATOR = 'CALCULATOR';
+export const INVENTORYITEM = 'INVENTORYITEM';
+export const KNOWLEDGEBASE = 'KNOWLEDGEBASE';
+export const LABMEMBER = 'LABMEMBER';
+export const ORDERITEM = 'ORDERITEM';
+export const PRODUCT = 'PRODUCT';
+export const PROTOCOL = 'PROTOCOL';
+export const RECIPE = 'RECIPE';
+export const VIDEO = 'VIDEO';

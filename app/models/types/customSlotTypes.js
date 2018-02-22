@@ -1,0 +1,8 @@
+export const CALCULATION_NAME = 'CALCULATIONNAME'
+export const CALCULATION_TYPE = 'CALCULATIONTYPE';
+export const ENTITY = 'ENTITY';
+export const LOOKUPQUALIFIER = 'LOOKUPQUALIFIER';
+export const PROPERTY = 'PROPERTY';
+export const PROTOCOL = 'PROTOCOL';
+export const PROTOCOLTYPE = 'PROTOCOLTYPE';
+export const RECIPE = 'SOLUTION';

@@ -1,0 +1,14 @@
+.view-archive {
+  height: 35px;
+  background-color: #ededed;
+  border: 0;
+  border-radius: 20px;
+  margin-top: 40px;
+  color: #4A4A4A;
+  cursor: pointer;
+}
+
+.view-archive__link-to,  .view-archive__link-to:hover{
+  text-decoration: none !important;
+  color: #4a4a4a !important;
+}

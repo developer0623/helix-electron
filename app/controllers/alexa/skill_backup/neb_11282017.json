@@ -1,0 +1,1123 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "ENTITY",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "BamHI",
+              "synonyms": [
+                "BAMH1",
+                "bam h 1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "AatII",
+              "synonyms": [
+                "AAT2"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "AgeI",
+              "synonyms": [
+                "AGE1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BaeI",
+              "synonyms": [
+                "BAE1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BamHI-HF",
+              "synonyms": [
+                "BAMH1 HF",
+                "bam h 1 h f"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "EcoP15I",
+              "synonyms": [
+                "ECOP15 1",
+                "ECHO P 15 1",
+                "ECHOP 15 I"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BstBI",
+              "synonyms": [
+                "BSTB1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "DpnI",
+              "synonyms": [
+                "DPN1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "DpnII",
+              "synonyms": [
+                "DPN2"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "HindIII",
+              "synonyms": [
+                "HIND3"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SmlI",
+              "synonyms": [
+                "SML1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "SspI",
+              "synonyms": [
+                "SSP1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "XhoI",
+              "synonyms": [
+                "XHO1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BsaI-HF",
+              "synonyms": [
+                "BSA1 HF"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nt.BstNBI",
+              "synonyms": [
+                "NTBSTNB1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "KpnI",
+              "synonyms": [
+                "KPN1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "MslI",
+              "synonyms": [
+                "MSL1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "NotI",
+              "synonyms": [
+                "NOT1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "XbaI",
+              "synonyms": [
+                "XBA1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BbsI",
+              "synonyms": [
+                "BBS1",
+                "BBS 1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "BglII",
+              "synonyms": [
+                "Bagel 2",
+                "Bgl 2",
+                "BGL2",
+                "BGL 2"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "LOOKUPQUALIFIER",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "NEBuffer 3.1",
+              "synonyms": [
+                "buffer 3 Point 1",
+                "NEB Buffer 3 Point 1",
+                "any buffer 3 Point 1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "NEBuffer 2.1",
+              "synonyms": [
+                "NEB Buffer 2 Point 1",
+                "buffer 2 Point 1",
+                "any buffer 2 Point 1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "NEBuffer 1.1",
+              "synonyms": [
+                "buffer 1 Point 1",
+                "NEB buffer 1 Point 1",
+                "any buffer 1 Point 1"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "cutsmart buffer",
+              "synonyms": [
+                "cut smart",
+                "cutsmart"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "PROPERTY",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Methylation Sensitivity",
+              "synonyms": [
+                "blocked by methylation",
+                "methylation affect"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Catalog Number",
+              "synonyms": [
+                "any be catalog number",
+                "any b catalog number",
+                "NEB catalog number"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Supplied NEB Buffer",
+              "synonyms": [
+                "supplied buffer",
+                "NE Buffer",
+                "any buffer",
+                "supplied any buffer",
+                "supplied NE buffer",
+                "buffer"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Heat Inactivation Time",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Heat Inactivation Temperature",
+              "synonyms": [
+                "temp can I in activate",
+                "temperature can I in activate",
+                "temp can I inactivate",
+                "temperature can I inactivate",
+                "heat inactivation temp",
+                "heat in activation temperature",
+                "heat inactivation temp",
+                "heat inactivatable",
+                "heat inactivation temperature"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Requires SAM",
+              "synonyms": [
+                "required to add SAM",
+                "require to add SAM",
+                "need to add SAM",
+                "add SAM",
+                "needs S adenosyl methionine",
+                "requires S adenosyl methionine",
+                "need S adenosyl methionine",
+                "S adenosyl methionine requirement",
+                "require S adenosyl methionine",
+                "needs sam",
+                "need sam",
+                "needs SAM",
+                "need SAM",
+                "SAM requirement",
+                "requires sam"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Incubation Temperature",
+              "synonyms": [
+                "best incubation temp",
+                "best incubation temperature",
+                "recommended incubation temp",
+                "recommended incubation temperature",
+                "optimal incubation temp",
+                "optimal incubation temperature",
+                "optimal incubation temp",
+                "incubation temp"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Cutsite",
+              "synonyms": [
+                "cut site"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Time Saver Qualified",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Percent Activity",
+              "synonyms": [
+                "activity",
+                "activity in",
+                "percent activity in"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "PROTOCOL",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest",
+              "synonyms": [
+                "Restriction Digest",
+                "Digest",
+                "Restriction Enzyme Protocol",
+                "digest protocol"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with DpnII and BglII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with DpnII and EcoP15I",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with XbaI and NotI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BstBI and BglII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BamHI-HF and KpnI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with XhoI and KpnI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with SspI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with AatII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BsaI-HF",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with DpnII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with SmlI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with XbaI and SmlI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "NEB Quick Ligation Kit",
+              "synonyms": [
+                "Quick Ligation Kit",
+                "Quick Ligation",
+                "NEB Quick Ligation"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with AatII and AgeI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BamHI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with EcoP15I",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BglII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with AgeI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with Nt.BstNBI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with XhoI and BaeI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BaeI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with SmlI and BglII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with KpnI and BglII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with XbaI and XhoI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with AatII and MslI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BsaI-HF and HindIII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with XbaI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with MslI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BbsI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with DpnI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with KpnI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with SmlI and BaeI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with Nt.BstNBI and XbaI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with AatII and HindIII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with XhoI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with NotI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BamHI-HF",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BstBI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with HindIII",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with KpnI and EcoP15I",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BstBI and NotI",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Restriction Enzyme Digest with BamHI and KpnI",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "PROTOCOLPROPERTY",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Equipment",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Reagents",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "PROTOCOLTYPE",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Single",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Double",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.LoopOffIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.LoopOnIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.MoreIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NavigateHomeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NavigateSettingsIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NextIntent",
+        "samples": [
+          "What is the first step",
+          "What's the first step",
+          "What is first step",
+          "What's first step",
+          "What is first",
+          "What's first",
+          "What is the Next Step",
+          "What's the Next Step",
+          "What is next step",
+          "What's next step",
+          "What is next",
+          "What's next",
+          "Show the first step",
+          "Show first step",
+          "Show me this first step",
+          "Show me the first step",
+          "Show me first step",
+          "Show next step",
+          "Show me the next step",
+          "Show me next step",
+          "First step please",
+          "Next step please",
+          "Ok First Step",
+          "Ok Next Step",
+          "I'm ready for the first step",
+          "I'm ready for the next step",
+          "Take me to the next step",
+          "next step",
+          "first step",
+          "Tell me the first step",
+          "Give me the first step",
+          "Tell me next",
+          "Tell me the next step"
+        ]
+      },
+      {
+        "name": "AMAZON.PageDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PageUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PreviousIntent",
+        "samples": [
+          "What is the last step again",
+          "What's the last step again",
+          "What is the last step",
+          "What's the last step",
+          "What is last step",
+          "What's last step",
+          "What is last",
+          "What's last",
+          "What is the previous step again",
+          "What's the previous step again",
+          "What is the previous step",
+          "What's the previous step",
+          "What is previous step",
+          "What's previous step",
+          "What is previous",
+          "What's previous",
+          "Show the lasts step",
+          "Show last step",
+          "Show me this last step",
+          "Show me last step",
+          "Show previous step",
+          "Show me the previous step",
+          "Show me previous step",
+          "Last step please",
+          "Previous step plese",
+          "Ok last step",
+          "Ok previous step",
+          "Take me to the previous step",
+          "previous step",
+          "last step"
+        ]
+      },
+      {
+        "name": "AMAZON.RepeatIntent",
+        "samples": [
+          "Repeat the step",
+          "Repeat the current step",
+          "Repeat that",
+          "Repeat that for me",
+          "Can you repeat the step",
+          "Can you repeat the current step again",
+          "Say the current step again",
+          "Say the step again",
+          "What's the step again",
+          "What is the step again",
+          "What am I supposed to do"
+        ]
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollLeftIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollRightIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ShuffleOffIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ShuffleOnIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "CompleteProtocolIntent",
+        "samples": [
+          "End current protocol",
+          "End {Protocol}",
+          "Mark protocol complete",
+          "Complete my protocol",
+          "End Protocol",
+          "Complete this Protocol",
+          "Complete Protocol",
+          "Stop Protocol",
+          "Close Protocol"
+        ],
+        "slots": [
+          {
+            "name": "Protocol",
+            "type": "PROTOCOL"
+          }
+        ]
+      },
+      {
+        "name": "LookUpIntent",
+        "samples": [
+          "What is the {Property} for {Entity}",
+          "What's the {Property} for {Entity}",
+          "What are the {Property} for {Entity}",
+          "What is the {Property} of {Entity}",
+          "What's the {Property} of {Entity}",
+          "What are the {Property} of {Entity}",
+          "What is the {Property} for {LookUpQualifier} of {Entity}",
+          "What's the {Property} of {Entity} on the {LookUpQualifier}",
+          "What is the {Property} for {Entity} in the {LookUpQualifier}",
+          "What's the {Property} for {Entity} in the {LookUpQualifier}",
+          "What is {Property} {Entity}",
+          "What's {Property} {Entity}",
+          "What is the {Property} {Entity}",
+          "What's the {Property} {Entity}",
+          "What's {Entity} {Property}",
+          "What is {Entity} {Property}",
+          "What {Property} {Entity} at",
+          "Is {Entity} {Property}",
+          "Is {Entity} a {Property}",
+          "How should I {Property} {Entity}",
+          "How should I {Property} for {Entity}",
+          "How should I {Property} of {Entity}",
+          "How should {Property} {Entity}",
+          "How should {Property} for {Entity}",
+          "How should {Property} of {Entity}",
+          "Tell me the {Property} of {Entity}",
+          "Tell me the {Property} for {Entity}",
+          "Tell me {Property} of {Entity}",
+          "Tell me {Property} for {Entity}",
+          "Tell me {Property} {Entity}",
+          "Tell me the {Property} for {LookUpQualifier} of {Entity}",
+          "Tell me the {Property} for {LookUpQualifier} for {Entity}",
+          "Tell me {Entity} {Property}",
+          "Tell me about the {Property} {Entity}",
+          "Tell me about the {Property} for {Entity}",
+          "Tell me about the {Property} of {Entity}",
+          "Lookup {Entity} {Property}",
+          "Lookup the {Property} of {Entity}",
+          "Lookup the {Property} for {Entity}",
+          "Lookup {Property} of {Entity}",
+          "Lookup {Property} for {Entity}",
+          "Look up the {Property} of {Entity}",
+          "Look up the {Property} for {Entity}",
+          "Look up {Property} of {Entity}",
+          "Look up {Property} for {Entity}",
+          "{Entity} {Property} ",
+          "What {Property} do I use for {Entity}",
+          "Do I {Property} to {Entity}",
+          "Am I {Property} to {Entity}",
+          "How much {Property} for {Entity}",
+          "{Property} for {Entity} in {LookUpQualifier}",
+          "{Property} for {Entity} {LookUpQualifier}",
+          "What is the {Property} in {LookUpQualifier} for {Entity}",
+          "What's the {Property} in {LookUpQualifier} for {Entity}",
+          "How much {Property} in {LookUpQualifier} for {Entity}",
+          "{Property} {LookUpQualifier} for {Entity}",
+          "{Property} in {LookUpQualifier} for {Entity}"
+        ],
+        "slots": [
+          {
+            "name": "Entity",
+            "type": "ENTITY"
+          },
+          {
+            "name": "Property",
+            "type": "PROPERTY"
+          },
+          {
+            "name": "LookUpQualifier",
+            "type": "LOOKUPQUALIFIER"
+          }
+        ]
+      },
+      {
+        "name": "ProtocolIntent",
+        "samples": [
+          "How do I do a {ProtocolType} {ProtocolName} with {FirstEnzyme} and {SecondEnzyme}",
+          "What's the {ProtocolType} {ProtocolName} for {FirstEnzyme} and {SecondEnzyme}",
+          "Lookup a protocol for {ProtocolName}",
+          "Lookup a protocol for a {ProtocolName}",
+          "How do I make a protocol",
+          "How do I do a protocol",
+          "Let's do {ProtocolType} {ProtocolName} using {FirstEnzyme} and {SecondEnzyme}",
+          "Let's do a {ProtocolType} {ProtocolName} using {FirstEnzyme}",
+          "Let us do a {ProtocolName} protocol",
+          "Let's do a {ProtocolName} protocol",
+          "What is the protocol for a {ProtocolName} using {FirstEnzyme} and {SecondEnzyme}",
+          "What is the protocol for a {ProtocolName} using {FirstEnzyme}",
+          "What is the protocol for a {ProtocolType} {ProtocolName}",
+          "What's the protocol for a {ProtocolType} {ProtocolName} using {FirstEnzyme} and {SecondEnzyme}",
+          "What's the protocol for a {ProtocolType} {ProtocolName} using {FirstEnzyme}",
+          "Help me with a {ProtocolName}",
+          "Help me do {ProtocolName}",
+          "How do I do {ProtocolName}",
+          "Help me do a {ProtocolName}",
+          "How do I do a {ProtocolName}",
+          "What is the protocol for a {ProtocolName}",
+          "What's the protocol for {ProtocolName}",
+          "Lookup a protocol",
+          "Look up a protocol",
+          "Help me with a protocol",
+          "I need help with a protocol",
+          "Start a protocol",
+          "Let's do a protocol",
+          "How do I {ProtocolType} {ProtocolName} {FirstEnzyme} and {SecondEnzyme}"
+        ],
+        "slots": [
+          {
+            "name": "ProtocolName",
+            "type": "PROTOCOL",
+            "samples": [
+              "{ProtocolName}"
+            ]
+          },
+          {
+            "name": "ProtocolType",
+            "type": "PROTOCOLTYPE"
+          },
+          {
+            "name": "FirstEnzyme",
+            "type": "ENTITY"
+          },
+          {
+            "name": "SecondEnzyme",
+            "type": "ENTITY"
+          }
+        ]
+      },
+      {
+        "name": "ProtocolPropertyIntent",
+        "samples": [
+          "Which {ProtocolProperty} do I need",
+          "What {ProtocolProperty} do I need"
+        ],
+        "slots": [
+          {
+            "name": "ProtocolProperty",
+            "type": "PROTOCOLPROPERTY"
+          }
+        ]
+      }
+    ],
+    "invocationName": "helix n. e. b."
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-ProtocolIntent.IntentSlot-ProtocolName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Which protocol?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "ProtocolIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "ProtocolName",
+            "type": "PROTOCOL",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-ProtocolIntent.IntentSlot-ProtocolName"
+            }
+          },
+          {
+            "name": "ProtocolType",
+            "type": "PROTOCOLTYPE",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "FirstEnzyme",
+            "type": "ENTITY",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "SecondEnzyme",
+            "type": "ENTITY",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}
